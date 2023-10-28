@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   next:
-    specifier: 14.0.0
-    version: registry.npmjs.org/next@14.0.0(react-dom@18.2.0)(react@18.2.0)
+    specifier: 14.0.1-canary.1
+    version: registry.npmjs.org/next@14.0.1-canary.1(react-dom@18.2.0)(react@18.2.0)
   react:
     specifier: ^18
     version: registry.npmjs.org/react@18.2.0
@@ -29,8 +29,8 @@ devDependencies:
     specifier: ^8
     version: registry.npmjs.org/eslint@8.52.0
   eslint-config-next:
-    specifier: 14.0.0
-    version: registry.npmjs.org/eslint-config-next@14.0.0(eslint@8.52.0)(typescript@5.2.2)
+    specifier: 14.0.1-canary.1
+    version: registry.npmjs.org/eslint-config-next@14.0.1-canary.1(eslint@8.52.0)(typescript@5.2.2)
   typescript:
     specifier: ^5
     version: registry.npmjs.org/typescript@5.2.2
@@ -125,24 +125,24 @@ packages:
     version: 2.0.1
     dev: true
 
-  registry.npmjs.org/@next/env@14.0.0:
-    resolution: {integrity: sha512-cIKhxkfVELB6hFjYsbtEeTus2mwrTC+JissfZYM0n+8Fv+g8ucUfOlm3VEDtwtwydZ0Nuauv3bl0qF82nnCAqA==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@next/env/-/env-14.0.0.tgz}
+  registry.npmjs.org/@next/env@14.0.1-canary.1:
+    resolution: {integrity: sha512-t9ZD1mSmJ5exrAf4JsS4qc7bQCD4+ercaOoN4mHjzSeD6eSK0MX4PT83BQJUPlL1t3NKo8AED4pzuzPhqGBGuQ==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@next/env/-/env-14.0.1-canary.1.tgz}
     name: '@next/env'
-    version: 14.0.0
+    version: 14.0.1-canary.1
     dev: false
 
-  registry.npmjs.org/@next/eslint-plugin-next@14.0.0:
-    resolution: {integrity: sha512-Ye37nNI09V3yt7pzuzSQtwlvuJ2CGzFszHXkcTHHZgNr7EhTMFLipn3VSJChy+e5+ahTdNApPphc3qCPUsn10A==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@next/eslint-plugin-next/-/eslint-plugin-next-14.0.0.tgz}
+  registry.npmjs.org/@next/eslint-plugin-next@14.0.1-canary.1:
+    resolution: {integrity: sha512-a4HhHed8CIPEyegEAxmxChujIQq1dA0SwmTginAP+IarZ3Cmf+NNj9alOBLNztZruicXMl5lUk26HlIWmjs77w==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@next/eslint-plugin-next/-/eslint-plugin-next-14.0.1-canary.1.tgz}
     name: '@next/eslint-plugin-next'
-    version: 14.0.0
+    version: 14.0.1-canary.1
     dependencies:
       glob: registry.npmjs.org/glob@7.1.7
     dev: true
 
-  registry.npmjs.org/@next/swc-darwin-arm64@14.0.0:
-    resolution: {integrity: sha512-HQKi159jCz4SRsPesVCiNN6tPSAFUkOuSkpJsqYTIlbHLKr1mD6be/J0TvWV6fwJekj81bZV9V/Tgx3C2HO9lA==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@next/swc-darwin-arm64/-/swc-darwin-arm64-14.0.0.tgz}
+  registry.npmjs.org/@next/swc-darwin-arm64@14.0.1-canary.1:
+    resolution: {integrity: sha512-7Cq7dhNxlMBbvkUnmT6DZ7cu2vYk3KZHAG/2/yizlBrRmLOIJufpq4cG6hrE5jgTxzlQI1lVsnDm+iMXvp7t9g==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@next/swc-darwin-arm64/-/swc-darwin-arm64-14.0.1-canary.1.tgz}
     name: '@next/swc-darwin-arm64'
-    version: 14.0.0
+    version: 14.0.1-canary.1
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [darwin]
@@ -150,10 +150,10 @@ packages:
     dev: false
     optional: true
 
-  registry.npmjs.org/@next/swc-darwin-x64@14.0.0:
-    resolution: {integrity: sha512-4YyQLMSaCgX/kgC1jjF3s3xSoBnwHuDhnF6WA1DWNEYRsbOOPWjcYhv8TKhRe2ApdOam+VfQSffC4ZD+X4u1Cg==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@next/swc-darwin-x64/-/swc-darwin-x64-14.0.0.tgz}
+  registry.npmjs.org/@next/swc-darwin-x64@14.0.1-canary.1:
+    resolution: {integrity: sha512-gQsiTvCnxEBbFWMafHQD3X+1J9GIi0VHjsAnntuOQOzjdErPKSnP/wSAbwAl81vol8v8T51XgxQyO6ZnjXDbDg==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@next/swc-darwin-x64/-/swc-darwin-x64-14.0.1-canary.1.tgz}
     name: '@next/swc-darwin-x64'
-    version: 14.0.0
+    version: 14.0.1-canary.1
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [darwin]
@@ -161,10 +161,10 @@ packages:
     dev: false
     optional: true
 
-  registry.npmjs.org/@next/swc-linux-arm64-gnu@14.0.0:
-    resolution: {integrity: sha512-io7fMkJ28Glj7SH8yvnlD6naIhRDnDxeE55CmpQkj3+uaA2Hko6WGY2pT5SzpQLTnGGnviK85cy8EJ2qsETj/g==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@next/swc-linux-arm64-gnu/-/swc-linux-arm64-gnu-14.0.0.tgz}
+  registry.npmjs.org/@next/swc-linux-arm64-gnu@14.0.1-canary.1:
+    resolution: {integrity: sha512-31mCTkFmycW6OFRqeDXFivWCCqwySm3hNFRkDykxNNgFB9AijTkqxQhSrX/BHoStX5G+E5+a6JiQCLkPVvCC+Q==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@next/swc-linux-arm64-gnu/-/swc-linux-arm64-gnu-14.0.1-canary.1.tgz}
     name: '@next/swc-linux-arm64-gnu'
-    version: 14.0.0
+    version: 14.0.1-canary.1
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
@@ -172,10 +172,10 @@ packages:
     dev: false
     optional: true
 
-  registry.npmjs.org/@next/swc-linux-arm64-musl@14.0.0:
-    resolution: {integrity: sha512-nC2h0l1Jt8LEzyQeSs/BKpXAMe0mnHIMykYALWaeddTqCv5UEN8nGO3BG8JAqW/Y8iutqJsaMe2A9itS0d/r8w==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@next/swc-linux-arm64-musl/-/swc-linux-arm64-musl-14.0.0.tgz}
+  registry.npmjs.org/@next/swc-linux-arm64-musl@14.0.1-canary.1:
+    resolution: {integrity: sha512-TFH8EI06WFP1aydC+iuf60OZw3LeT7SYaMiOl+ZBbh1ovRIAz81yBd6RKNKEELWJ5laXyxIW6i8TaUoK1uqMwA==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@next/swc-linux-arm64-musl/-/swc-linux-arm64-musl-14.0.1-canary.1.tgz}
     name: '@next/swc-linux-arm64-musl'
-    version: 14.0.0
+    version: 14.0.1-canary.1
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
@@ -183,10 +183,10 @@ packages:
     dev: false
     optional: true
 
-  registry.npmjs.org/@next/swc-linux-x64-gnu@14.0.0:
-    resolution: {integrity: sha512-Wf+WjXibJQ7hHXOdNOmSMW5bxeJHVf46Pwb3eLSD2L76NrytQlif9NH7JpHuFlYKCQGfKfgSYYre5rIfmnSwQw==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-14.0.0.tgz}
+  registry.npmjs.org/@next/swc-linux-x64-gnu@14.0.1-canary.1:
+    resolution: {integrity: sha512-38tfoiEXYEOLFtt6XxqrKCQG+dv+F5Ed7mhH/QOVw3JF/bUc+EZb8ioOzxi9eBVCEipc0Xq7kE8hFV1HFIqt3Q==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-14.0.1-canary.1.tgz}
     name: '@next/swc-linux-x64-gnu'
-    version: 14.0.0
+    version: 14.0.1-canary.1
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
@@ -194,10 +194,10 @@ packages:
     dev: false
     optional: true
 
-  registry.npmjs.org/@next/swc-linux-x64-musl@14.0.0:
-    resolution: {integrity: sha512-WTZb2G7B+CTsdigcJVkRxfcAIQj7Lf0ipPNRJ3vlSadU8f0CFGv/ST+sJwF5eSwIe6dxKoX0DG6OljDBaad+rg==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@next/swc-linux-x64-musl/-/swc-linux-x64-musl-14.0.0.tgz}
+  registry.npmjs.org/@next/swc-linux-x64-musl@14.0.1-canary.1:
+    resolution: {integrity: sha512-NtQTlvDPqcTF0ssRiYwo6ZsN/9QoV71mYgA+D9uRodGDLl/1cnXEu6i6WLTutQ54kTEwHzY6mB3coCh5bP5L6Q==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@next/swc-linux-x64-musl/-/swc-linux-x64-musl-14.0.1-canary.1.tgz}
     name: '@next/swc-linux-x64-musl'
-    version: 14.0.0
+    version: 14.0.1-canary.1
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
@@ -205,10 +205,10 @@ packages:
     dev: false
     optional: true
 
-  registry.npmjs.org/@next/swc-win32-arm64-msvc@14.0.0:
-    resolution: {integrity: sha512-7R8/x6oQODmNpnWVW00rlWX90sIlwluJwcvMT6GXNIBOvEf01t3fBg0AGURNKdTJg2xNuP7TyLchCL7Lh2DTiw==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@next/swc-win32-arm64-msvc/-/swc-win32-arm64-msvc-14.0.0.tgz}
+  registry.npmjs.org/@next/swc-win32-arm64-msvc@14.0.1-canary.1:
+    resolution: {integrity: sha512-9u/sRQUme02UqhGCe1omk5eohtc++W8jXDA0lln0d7VJCYbplWPQ9k+y49fqfFwMYHQ/xdf6vTk9UfcY7SYBZw==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@next/swc-win32-arm64-msvc/-/swc-win32-arm64-msvc-14.0.1-canary.1.tgz}
     name: '@next/swc-win32-arm64-msvc'
-    version: 14.0.0
+    version: 14.0.1-canary.1
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [win32]
@@ -216,10 +216,10 @@ packages:
     dev: false
     optional: true
 
-  registry.npmjs.org/@next/swc-win32-ia32-msvc@14.0.0:
-    resolution: {integrity: sha512-RLK1nELvhCnxaWPF07jGU4x3tjbyx2319q43loZELqF0+iJtKutZ+Lk8SVmf/KiJkYBc7Cragadz7hb3uQvz4g==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@next/swc-win32-ia32-msvc/-/swc-win32-ia32-msvc-14.0.0.tgz}
+  registry.npmjs.org/@next/swc-win32-ia32-msvc@14.0.1-canary.1:
+    resolution: {integrity: sha512-SKtpSO5RMfSQk0WdoshHp8ipXcdUkRha1R7apkamI6pvDwdVDAaWgxW5k7aJ4ZkIpMaGuReX/UzD50P39vI+XA==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@next/swc-win32-ia32-msvc/-/swc-win32-ia32-msvc-14.0.1-canary.1.tgz}
     name: '@next/swc-win32-ia32-msvc'
-    version: 14.0.0
+    version: 14.0.1-canary.1
     engines: {node: '>= 10'}
     cpu: [ia32]
     os: [win32]
@@ -227,10 +227,10 @@ packages:
     dev: false
     optional: true
 
-  registry.npmjs.org/@next/swc-win32-x64-msvc@14.0.0:
-    resolution: {integrity: sha512-g6hLf1SUko+hnnaywQQZzzb3BRecQsoKkF3o/C+F+dOA4w/noVAJngUVkfwF0+2/8FzNznM7ofM6TGZO9svn7w==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-14.0.0.tgz}
+  registry.npmjs.org/@next/swc-win32-x64-msvc@14.0.1-canary.1:
+    resolution: {integrity: sha512-EOXwaUMvPgr7/C5mpwBZIcSxDmLMtFWVmfaGAmb4/jsnCo/fK+QYyW5PRMjMNe6QZW3lp1YNc3MCt2fupYb3EQ==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-14.0.1-canary.1.tgz}
     name: '@next/swc-win32-x64-msvc'
-    version: 14.0.0
+    version: 14.0.1-canary.1
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [win32]
@@ -919,11 +919,11 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  registry.npmjs.org/eslint-config-next@14.0.0(eslint@8.52.0)(typescript@5.2.2):
-    resolution: {integrity: sha512-jtXeE+/pGQ3h9n11QyyuPN50kO13GO5XvjU5ZRq6W+XTpOMjyobWmK2s7aowy0FtzA49krJzYzEU9s1RMwoJ6g==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/eslint-config-next/-/eslint-config-next-14.0.0.tgz}
-    id: registry.npmjs.org/eslint-config-next/14.0.0
+  registry.npmjs.org/eslint-config-next@14.0.1-canary.1(eslint@8.52.0)(typescript@5.2.2):
+    resolution: {integrity: sha512-WzTHqXmaAeXlfnekuX4PG93n9H3EU5uPrdj+VJ2cegXAQyxOZP3bo88EviPHouxQTweeuNoD21JIC1ay5ZvLCg==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/eslint-config-next/-/eslint-config-next-14.0.1-canary.1.tgz}
+    id: registry.npmjs.org/eslint-config-next/14.0.1-canary.1
     name: eslint-config-next
-    version: 14.0.0
+    version: 14.0.1-canary.1
     peerDependencies:
       eslint: ^7.23.0 || ^8.0.0
       typescript: '>=3.3.1'
@@ -931,7 +931,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@next/eslint-plugin-next': registry.npmjs.org/@next/eslint-plugin-next@14.0.0
+      '@next/eslint-plugin-next': registry.npmjs.org/@next/eslint-plugin-next@14.0.1-canary.1
       '@rushstack/eslint-patch': registry.npmjs.org/@rushstack/eslint-patch@1.5.1
       '@typescript-eslint/parser': registry.npmjs.org/@typescript-eslint/parser@6.9.0(eslint@8.52.0)(typescript@5.2.2)
       eslint: registry.npmjs.org/eslint@8.52.0
@@ -1997,11 +1997,11 @@ packages:
     version: 1.4.0
     dev: true
 
-  registry.npmjs.org/next@14.0.0(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-J0jHKBJpB9zd4+c153sair0sz44mbaCHxggs8ryVXSFBuBqJ8XdE9/ozoV85xGh2VnSjahwntBZZgsihL9QznA==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/next/-/next-14.0.0.tgz}
-    id: registry.npmjs.org/next/14.0.0
+  registry.npmjs.org/next@14.0.1-canary.1(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-LnP0bouQkGvXs8BLG3EzjLHSjNafAI+sZIIFkJ4l7UQKXb6szg6RhQE/Y0wKF7iakz3g1kC2qJQvCEH4OZ2agA==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/next/-/next-14.0.1-canary.1.tgz}
+    id: registry.npmjs.org/next/14.0.1-canary.1
     name: next
-    version: 14.0.0
+    version: 14.0.1-canary.1
     engines: {node: '>=18.17.0'}
     hasBin: true
     peerDependencies:
@@ -2015,7 +2015,7 @@ packages:
       sass:
         optional: true
     dependencies:
-      '@next/env': registry.npmjs.org/@next/env@14.0.0
+      '@next/env': registry.npmjs.org/@next/env@14.0.1-canary.1
       '@swc/helpers': registry.npmjs.org/@swc/helpers@0.5.2
       busboy: registry.npmjs.org/busboy@1.6.0
       caniuse-lite: registry.npmjs.org/caniuse-lite@1.0.30001555
@@ -2025,15 +2025,15 @@ packages:
       styled-jsx: registry.npmjs.org/styled-jsx@5.1.1(react@18.2.0)
       watchpack: registry.npmjs.org/watchpack@2.4.0
     optionalDependencies:
-      '@next/swc-darwin-arm64': registry.npmjs.org/@next/swc-darwin-arm64@14.0.0
-      '@next/swc-darwin-x64': registry.npmjs.org/@next/swc-darwin-x64@14.0.0
-      '@next/swc-linux-arm64-gnu': registry.npmjs.org/@next/swc-linux-arm64-gnu@14.0.0
-      '@next/swc-linux-arm64-musl': registry.npmjs.org/@next/swc-linux-arm64-musl@14.0.0
-      '@next/swc-linux-x64-gnu': registry.npmjs.org/@next/swc-linux-x64-gnu@14.0.0
-      '@next/swc-linux-x64-musl': registry.npmjs.org/@next/swc-linux-x64-musl@14.0.0
-      '@next/swc-win32-arm64-msvc': registry.npmjs.org/@next/swc-win32-arm64-msvc@14.0.0
-      '@next/swc-win32-ia32-msvc': registry.npmjs.org/@next/swc-win32-ia32-msvc@14.0.0
-      '@next/swc-win32-x64-msvc': registry.npmjs.org/@next/swc-win32-x64-msvc@14.0.0
+      '@next/swc-darwin-arm64': registry.npmjs.org/@next/swc-darwin-arm64@14.0.1-canary.1
+      '@next/swc-darwin-x64': registry.npmjs.org/@next/swc-darwin-x64@14.0.1-canary.1
+      '@next/swc-linux-arm64-gnu': registry.npmjs.org/@next/swc-linux-arm64-gnu@14.0.1-canary.1
+      '@next/swc-linux-arm64-musl': registry.npmjs.org/@next/swc-linux-arm64-musl@14.0.1-canary.1
+      '@next/swc-linux-x64-gnu': registry.npmjs.org/@next/swc-linux-x64-gnu@14.0.1-canary.1
+      '@next/swc-linux-x64-musl': registry.npmjs.org/@next/swc-linux-x64-musl@14.0.1-canary.1
+      '@next/swc-win32-arm64-msvc': registry.npmjs.org/@next/swc-win32-arm64-msvc@14.0.1-canary.1
+      '@next/swc-win32-ia32-msvc': registry.npmjs.org/@next/swc-win32-ia32-msvc@14.0.1-canary.1
+      '@next/swc-win32-x64-msvc': registry.npmjs.org/@next/swc-win32-x64-msvc@14.0.1-canary.1
     transitivePeerDependencies:
       - '@babel/core'
       - babel-plugin-macros
